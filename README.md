@@ -24,9 +24,13 @@ Develop a full-stack expense tracker that allows users to record and manage inco
 3. Open the `index.html` file in any web browser (Chrome, Edge, Firefox).
 
 ## 📸 Screenshots
-*(Optional: You can add screenshots of your project here)*
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
 
 ---
-**Intern Name:** [Your Name]
-**Internship Domain:** Full Stack Developer
+**Intern Name:** Ravi Kumar
+**Internship Domain:** Full Stack Developer Intern
 **Company:** Cognetix Technology
