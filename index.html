@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SonicX Headphones - Product Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="https://cdn-icons-png.flaticon.com/512/27/27130.png" alt="SonicX Logo">
+            <span>CognetiX</span>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#video">How it Works</a></li>
+                <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Experience Sound Like Never Before</h1>
+            <p>Premium Noise Cancelling Wireless Headphones for music lovers.</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <input type="submit" id="submit" class="btn" value="Get Started">
+            </form>
+        </div>
+        <div class="hero-image">
+             <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Headphones">
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="feature-box">
+            <i class="fa-solid fa-battery-full icon"></i>
+            <h3>Long Battery Life</h3>
+            <p>Enjoy up to 40 hours of non-stop music playback on a single charge.</p>
+        </div>
+        <div class="feature-box">
+            <i class="fa-solid fa-wifi icon"></i>
+            <h3>Fast Connectivity</h3>
+            <p>Bluetooth 5.2 ensures a stable and instant connection to your devices.</p>
+        </div>
+        <div class="feature-box">
+            <i class="fa-solid fa-volume-high icon"></i>
+            <h3>Superior Bass</h3>
+            <p>Deep, immersive sound quality engineered for audiophiles.</p>
+        </div>
+    </section>
+
+    <section id="video">
+        <h2>See it in Action</h2>
+        <iframe id="video-frame" width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="pricing">
+        <div class="product-card">
+            <div class="level">Standard</div>
+            <h2>₹1,999</h2>
+            <ul>
+                <li>Standard Bass</li>
+                <li>20 Hours Battery</li>
+                <li>Wired Option</li>
+            </ul>
+            <button class="btn" onclick="selectProduct('Standard')">Select</button>
+        </div>
+        <div class="product-card">
+            <div class="level">Pro</div>
+            <h2>₹3,499</h2>
+            <ul>
+                <li>Active Noise Cancellation</li>
+                <li>30 Hours Battery</li>
+                <li>Water Resistant</li>
+            </ul>
+            <button class="btn" onclick="selectProduct('Pro')">Select</button>
+        </div>
+        <div class="product-card">
+            <div class="level">Premium</div>
+            <h2>₹4,999</h2>
+            <ul>
+                <li>360 Audio</li>
+                <li>50 Hours Battery</li>
+                <li>Premium Case</li>
+            </ul>
+            <button class="btn" onclick="selectProduct('Premium')">Select</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 cognetiX Technology. All Rights Reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
